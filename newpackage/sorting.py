@@ -25,10 +25,10 @@ def merge_sort(items):
 
     '''Return array of items, sorted in ascending order'''
 def quick_sort(items):
-    if len(l) == 0:
-        return l
-    start = l[0]
-    first = [x for x in l if x == start]
-    smaller = quick_sort([x for x in l if x < start])
-    larger = quick_sort([x for x in l if x > start])
+    if len(items) == 0:
+        return items
+    start = items[0]
+    first = [x for x in items if x == start]
+    smaller = quick_sort([x for x in items if x < start])
+    larger = quick_sort([x for x in items if x > start])
     return smaller + first + larger
