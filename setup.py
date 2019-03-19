@@ -8,7 +8,7 @@ setup(
     description='project python package',
     long_description=open('README.md').read(),
     install_requires=['numpy'],
-    url='https://github.com/<username>/<package-name>',
+    url='https://github.com/mphoscallos/newpackage.git',
     author='<Mpho Sello>',
     author_email='<mphoscallos.mm@gmail.com>'
 )

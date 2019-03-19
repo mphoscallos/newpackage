@@ -1,11 +1,10 @@
 def sum_array(array):
-    def sum_array(array):
-
     total =0
     for i in array:
         total= total + i
         '''Return sum of all items in array'''
     return total
+
 
 
 
